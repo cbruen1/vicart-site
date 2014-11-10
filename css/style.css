@@ -8,11 +8,13 @@
 
 	body
 	{
-		/*background: #fff url('images/bg01.png') repeat;*/
-		background: #fff url('../images/portfolio/fulls/bg6d.jpg') center;
+		/*background: #fff url('../images/portfolio/fulls/NewYork4-vertical.jpg');*/
+		background: #fff url('../images/portfolio/fulls/bg11b.jpg') center;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 400;
-		color: #595959;
+		/*color: #595959;*/
+		color:#000000;
+		/*background-size: 100% 100%;*/
 	}
 
 	a
