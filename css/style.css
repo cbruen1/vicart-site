@@ -8,8 +8,6 @@
 
 	body
 	{
-		/*background: #fff url('../images/portfolio/fulls/NewYork4-vertical.jpg');*/
-		background: #fff url('../images/portfolio/fulls/bg11b.jpg') center;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 400;
 		/*color: #595959;*/
@@ -38,16 +36,52 @@
 		font-style: italic;
 	}
 	
-	form
+	/*form
 	{
-	}
-	
-		form input.text,
-		form select,
-		form textarea
-		{
-			-webkit-appearance: none;
+	}*/
+
+	/* CB */
+		form {
+		    /* Just to center the form on the page */
+		    margin: 0 auto;
+		    width: 500px; 
+		    /* To see the outline of the form */
+		    padding: 1em;
+		    border: 1px solid #CCC;
+		    border-radius: 1em;
+		}	
+
+		form div + div {
+	    	margin-top: 1em;
 		}
+
+		label {
+			/* To make sure that all label have the same size and are properly align */
+		    display: inline-block;
+		    width: 125px;
+		    text-align: right;
+		    margin-right:10px;
+		}
+
+		label.error {
+		    margin-left:9px;
+		    /*padding:1px 5px 0px 5px;*/
+		    font-size:small;
+		    text-align: left;
+		    color:red;
+		}
+
+		input.error {
+		    border:1px solid #99182c;
+		}		
+	/* End CB */
+
+	form input.text,
+	form select,
+	form textarea
+	{
+		-webkit-appearance: none;
+	}
 			
 	br.clear
 	{

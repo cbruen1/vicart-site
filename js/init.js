@@ -42,6 +42,29 @@
 		// Forms (IE<10).
 			var $form = $('form');
 			if ($form.length > 0) {
+
+				// CB - add validation
+
+				$.validator.addMethod("namevalidation", function(value, element) {
+				    return this.optional(element) || /^[a-zA-Z \-\']+$/i.test(value);
+				}, "A-z, -, and \' characters only.");
+
+				$( $form ).validate({
+					rules: {
+						comments: {
+							required: true,
+							minlength: 10,
+							maxlength: 1000
+						},
+						first_name: {
+							required: true,
+							minlength: 2,
+							maxlength: 30,
+            				namevalidation: true
+						}
+					}
+				});
+				// End validation
 				
 				$form.find('.form-button-submit')
 					.on('click', function() {

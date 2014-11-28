@@ -1,0 +1,68 @@
+Temporary access
+------------------
+
+Use the data to a temporary access if the domain does not work yet.
+
+FTP server: lin39.mojsite.com
+Current address: http://vicartco.lin39.host25.com/
+Control Panel: http://lin39.mojsite.com/cpanel
+
+
+Control Panel
+-------------
+
+Http://www.vic-art.com/cpanel/
+
+Username: vicartco
+Password: ykZGBmwI
+
+Note: If you use a firewall (firewall), it is
+Configured to let TCP traffic on ports 2082, 2083,
+2095 and the 2096th
+
+
+FTP access
+-----------
+
+FTP server: ftp.vic-art.com
+Username: vicartco
+Password: ykZGBmwI
+
+Home Page upload via FTP client to the directory
+Public_html. Other directories are necessary for the proper functioning
+Your hosting account - please do not delete or change content.
+If you have any problems with FTP access, try
+Turn off / passive mode in your FTP client.
+
+More information on uploading pages to the server, FTP access and
+Elimination of potential problems can be found in our FAQ.
+
+
+Settings for e-mail
+------------------
+
+Incoming mail server (POP3 / IMAP): mail.vic-art.com
+Outgoing Mail Server (SMTP): mail.vic-art.com
+
+We advise that the SMTP server using the SMTP server of your ISP.
+
+To use e-mail, you must first create an e-mail account through
+CPanela. Once you have created a new e-mail account, use
+The following information to connect to the mail server via e-mail client
+(Outlook Express etc.):
+
+Username: adresa@vic-art.com
+
+Password you have set in cPanel.
+Username to access e-mail, either via POP3 / IMAP protocols or
+Webmail is always * the entire e-mail address *.
+
+In addition to the usual approach via the POP3 protocol in an e-mail client, the
+You have three different webmail interface that are
+At:
+Http://www.vic-art.com/webmail/
+
+
+Save or print the information contained in this email for future reference.
+Please provide additional information on our website.
+http://www.plus.hr/support/ 
